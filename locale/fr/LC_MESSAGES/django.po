@@ -1,0 +1,287 @@
+# French translation of our application.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Francklin ngandei <francklinngandeu@gmail.com>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-31 11:14+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: .\fact_app\models.py:14 .\templates\add_customer.html:39
+msgid "Male"
+msgstr "Masculin"
+
+#: .\fact_app\models.py:15 .\templates\add_customer.html:40
+msgid "Female"
+msgstr "Feminin"
+
+#: .\fact_app\models.py:51 .\templates\add_invoice.html:32
+msgid "RECEIPT"
+msgstr "RECU"
+
+#: .\fact_app\models.py:52 .\templates\add_invoice.html:33
+msgid "PROFORMA INVOICE"
+msgstr "FACTURE PROFORMA"
+
+#: .\fact_app\models.py:53 .\templates\add_invoice.html:34
+msgid "INVOICE"
+msgstr "FACTURE"
+
+#: .\fact_app\views.py:53
+msgid "change was made successfully."
+msgstr "la modification a été effetuée avec succès."
+
+#: .\fact_app\views.py:57 .\fact_app\views.py:72
+#, python-brace-format
+msgid "Sorry the following error has occurred {e}."
+msgstr "Désolé, l'erreur suivante s'est produite {e}."
+
+#: .\fact_app\views.py:68
+msgid "deletion was made successfully."
+msgstr "la suppression a été effectuée avec succès."
+
+#: .\fact_app\views.py:106
+msgid "Customer registered successfully"
+msgstr "Le client a été enregistré avec succés."
+
+#: .\fact_app\views.py:108
+msgid "Sorry, please try again the send data was corrupt"
+msgstr "Désolé, essayé encore les données envoyées ont été corrupues"
+
+#: .\fact_app\views.py:112
+#, python-brace-format
+msgid "Sorry our system detecting the following issues {e}."
+msgstr "Désolé notre système a dectecté les erreurs suivante {e}. "
+
+#: .\fact_app\views.py:171
+msgid "Data saved successfully. "
+msgstr "Les données ont été enregistré avec succès."
+
+#: .\fact_app\views.py:173
+msgid "Sorry, please try again the sent data was corrupt. "
+msgstr "Désolé, essayé encore les données envoyées ont été corrupues"
+
+#: .\fact_app\views.py:175
+#, python-brace-format
+msgid "Sorry the following error has occurred {e}. "
+msgstr "Désolé, l'erreur suivante s'est produite {e}."
+
+#: .\templates\add_customer.html:11 .\templates\index.html:21
+msgid "Register a new customer"
+msgstr "Enregistrer un nouveau client"
+
+#: .\templates\add_customer.html:17
+msgid "Name"
+msgstr "Nom"
+
+#: .\templates\add_customer.html:19
+msgid "customer first and last name"
+msgstr "nom complet du client"
+
+#: .\templates\add_customer.html:23
+msgid "Email"
+msgstr "Email"
+
+#: .\templates\add_customer.html:24
+msgid "customer email"
+msgstr "addresse email du client"
+
+#: .\templates\add_customer.html:28
+msgid "Phone"
+msgstr "téléphone"
+
+#: .\templates\add_customer.html:30
+msgid "customer phone number"
+msgstr "numéro de téléphone du client "
+
+#: .\templates\add_customer.html:36
+msgid "Sex"
+msgstr "Sexe"
+
+#: .\templates\add_customer.html:38
+msgid "Choose the gender .."
+msgstr "Choisir le genre .."
+
+#: .\templates\add_customer.html:47
+msgid "Address"
+msgstr "Addresse"
+
+#: .\templates\add_customer.html:49
+msgid "Customer address"
+msgstr "Addresse du client"
+
+#: .\templates\add_customer.html:55
+msgid "City"
+msgstr "Ville"
+
+#: .\templates\add_customer.html:56
+msgid "customer city"
+msgstr "Ville du client"
+
+#: .\templates\add_customer.html:62
+msgid "customer zip code required"
+msgstr "code postal du client requis"
+
+#: .\templates\add_customer.html:66 .\templates\add_invoice.html:81
+#: .\templates\index.html:152
+msgid "Save"
+msgstr "Sauvegarder"
+
+#: .\templates\add_invoice.html:9 .\templates\index.html:13
+msgid "Register a new invoice"
+msgstr "Enregistrer une nouvelle facture"
+
+#: .\templates\add_invoice.html:17
+msgid "Customer"
+msgstr "Client"
+
+#: .\templates\add_invoice.html:19
+msgid "Choose the customer ..."
+msgstr "Choisir le client ..."
+
+#: .\templates\add_invoice.html:31
+msgid "Choose the invoice type ..."
+msgstr "Choisir le type de facture ..."
+
+#: .\templates\add_invoice.html:43
+msgid "Item name"
+msgstr "Nom du produit "
+
+#: .\templates\add_invoice.html:48
+msgid "Quantity"
+msgstr "Quantité"
+
+#: .\templates\add_invoice.html:53 .\templates\invoice.html:85
+#: .\templates\invoicepdf.html:237
+msgid "Unit Price"
+msgstr "Prix unitaire"
+
+#: .\templates\add_invoice.html:76
+msgid "Comments"
+msgstr "Commentaire"
+
+#: .\templates\add_invoice.html:89
+msgid "Add a new item line"
+msgstr "Ajouter une nouvelle line"
+
+#: .\templates\add_invoice.html:90
+msgid "Remove last item line"
+msgstr "Retirer la dernière ligne"
+
+#: .\templates\base.html:23
+msgid "INVOICE SYSTEM"
+msgstr "SYSTEME DE FACTURATION"
+
+#: .\templates\base.html:32
+msgid "Languages"
+msgstr "langues"
+
+#: .\templates\base.html:35 .\webproject\settings.py:125
+msgid "English"
+msgstr "Anglais"
+
+#: .\templates\base.html:36 .\webproject\settings.py:124
+msgid "French"
+msgstr "Français"
+
+#: .\templates\base.html:46
+msgid "More option"
+msgstr "Plus d'option"
+
+#: .\templates\base.html:49
+msgid "Add customer"
+msgstr "Ajouter un client"
+
+#: .\templates\base.html:50
+msgid "Add admin"
+msgstr "Ajouter un administrateur"
+
+#: .\templates\base.html:52
+msgid "Statistic"
+msgstr "Statistique"
+
+#: .\templates\index.html:62
+msgid "View"
+msgstr "Vue"
+
+#: .\templates\index.html:64
+msgid "delete"
+msgstr "supprimer"
+
+#: .\templates\index.html:65 .\templates\index.html:179
+msgid "Delete"
+msgstr "supprimer"
+
+#: .\templates\index.html:68
+msgid "modify"
+msgstr "modifier"
+
+#: .\templates\index.html:70
+msgid "Modify"
+msgstr "modifier"
+
+#: .\templates\index.html:116
+msgid "No invoice found."
+msgstr "Aucune facture trouvée"
+
+#: .\templates\index.html:141
+msgid "This bill has been paid?"
+msgstr "Cette facture a telle été payée?"
+
+#: .\templates\index.html:144
+msgid "Yes"
+msgstr "Oui"
+
+#: .\templates\index.html:147
+msgid "No"
+msgstr "Non"
+
+#: .\templates\index.html:151 .\templates\index.html:178
+msgid "Close"
+msgstr "Fermer"
+
+#: .\templates\index.html:166
+msgid "Delete Invoice"
+msgstr "Supprimer la facture"
+
+#: .\templates\index.html:175
+msgid "Are you sure you want to delete the invoice  ?"
+msgstr "Etez-vous sure de vouloir supprimer la facture ?"
+
+#: .\templates\invoice.html:23
+msgid "Download"
+msgstr "Télécharger"
+
+#: .\templates\invoice.html:26
+msgid "Print"
+msgstr "Imprimer"
+
+#: .\templates\invoice.html:82 .\templates\invoicepdf.html:234
+msgid "Items"
+msgstr "Produit"
+
+#: .\templates\invoice.html:83 .\templates\invoicepdf.html:235
+msgid "Product ID"
+msgstr "Produit ID"
+
+#: .\templates\invoice.html:84 .\templates\invoicepdf.html:236
+msgid "Quantities"
+msgstr "Quantités"
+
+#: .\templates\invoice.html:167
+msgid "Thank you for your purchase ."
+msgstr "Merci pour votre achat ."
+
+#: .\templates\invoicepdf.html:319
+msgid "Thank you for your purchase {{date}}"
+msgstr "Merci pour votre achat {{date}}"
